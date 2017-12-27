@@ -13,6 +13,7 @@ class App < Sinatra::Base
       @team.heroes.each do |hero|
         Hero.new(hero)
       end
+      @heroes = Hero.all
     end
 
 end
