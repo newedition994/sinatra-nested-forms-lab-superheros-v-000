@@ -2,7 +2,7 @@ class Hero
   attr_accessor :name, :power, :biography
   HEROES = []
 
-  def method_name
+  def initialize(hash)
 
   end
 end
