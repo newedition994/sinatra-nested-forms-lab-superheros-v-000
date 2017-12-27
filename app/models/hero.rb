@@ -6,5 +6,6 @@ class Hero
     @name = params[:name]
     @power = params[:power]
     @biography = params[:biography]
+    HEROES << self
   end
 end
