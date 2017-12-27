@@ -8,4 +8,8 @@ class Hero
     @biography = params[:biography]
     HEROES << self
   end
+
+  def self.all
+
+  end
 end
